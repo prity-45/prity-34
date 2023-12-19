@@ -14,6 +14,7 @@ the onject can be created in two ways in javascript
 4. encapsulation
 => the process of wrapping properties and function within a single unit in known as encapsulation
 5.polymorphism
+
 6. abstraction
 */
 
