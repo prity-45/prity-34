@@ -12,6 +12,7 @@ the onject can be created in two ways in javascript
 
 
 4. encapsulation
+=> the process of wrapping properties and function within a single unit in known as encapsulation
 5.polymorphism
 6. abstraction
 */
@@ -67,7 +68,7 @@ console.log(bike1.getDetails());*/
 
 //inheritance
 
-class person{
+/*class person{
     constructor(name){
         this.name = name;
     }
@@ -85,4 +86,24 @@ class student extends person{
 
     }
 }let student1 = new student('prity',22);
-console.log(student1.tosharing());
+console.log(student1.tosharing());*/
+
+
+//encapsulation
+class person{
+    constructor(name,id){
+        this.name=name;
+        this.id=id;
+
+    }
+    add_addresh(add){
+        this.add=add;
+
+    }
+    getDetails(){
+        console.log(`name is ${this.name}, addresh is: ${this.add}`);
+    }
+}
+let person1 = new person('prity',21);
+person1.add_addresh('delhi',21);
+person1.getDetails();
