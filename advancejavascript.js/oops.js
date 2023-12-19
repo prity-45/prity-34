@@ -90,7 +90,7 @@ console.log(student1.tosharing());*/
 
 
 //encapsulation
-class person{
+/*class person{
     constructor(name,id){
         this.name=name;
         this.id=id;
@@ -106,4 +106,4 @@ class person{
 }
 let person1 = new person('prity',21);
 person1.add_addresh('delhi',21);
-person1.getDetails();
+person1.getDetails();*/
